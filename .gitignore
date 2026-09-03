@@ -1,0 +1,66 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+**/.turbo/
+**/.vite/
+**/.next/
+**/coverage/
+
+# Env files / secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local agent metadata / scratch work
+**/.agents/
+**/.codex/
+
+# Internal interview, resume, audit, sprint, acceptance and performance notes
+**/*面试*
+**/*简历*
+**/*阶段*
+**/*冲刺*
+**/*验收*
+**/*性能*
+/learning-mvp/
+
+# Private keys, certificates with private material and credential exports
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.jks
+**/*.keystore
+**/id_rsa*
+**/id_ed25519*
+**/.npmrc
+**/credentials.json
+**/credentials.*.json
+**/*-credentials.json
+**/service-account*.json
+**/*service-account*.json
+**/secrets.json
+**/secrets.yml
+**/secrets.yaml
+**/*.secret
+
+# Databases
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# Uploads / runtime data
+**/uploads/
